@@ -1,0 +1,23 @@
+table
+{
+border-collapse: collapse;
+width: 50%;
+height: 50%;
+}
+td, th 
+{
+border: 1px solid black;
+text-align: center;
+}
+td#ig
+{
+background-color: red;
+}
+td#gfc
+{
+background-color:yellow;
+}
+body
+{
+background-color: rgb(120, 152, 152);
+}

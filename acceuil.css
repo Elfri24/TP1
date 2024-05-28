@@ -1,0 +1,10 @@
+body{
+    background-color: deepskyblue;
+}
+h2,p{
+    text-align: center;
+}
+#Bienvenue{
+    display: block;
+    margin-top: 20%;
+}

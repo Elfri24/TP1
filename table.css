@@ -1,0 +1,16 @@
+table
+{
+border-collapse: collapse;
+height: 30%;
+width: 50%;
+}
+td,th
+{
+border: 2px solid grey;
+}
+body{
+    text-align: center;
+}
+.couleur{
+    background-color: lightblue ;
+}

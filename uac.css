@@ -1,0 +1,25 @@
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+}
+.c1{
+    order: 2;
+}
+.c2{
+    order: 3;
+}
+.c3{
+    order: 1;
+}
+#eneam{
+    width: 60%;
+}
+#uac{
+    width: 60%;
+}
+body
+{
+    background-color: rgb(43, 217, 226);
+}
