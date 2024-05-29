@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <p><title> Mon site</title> </p>
+        <link href="exo_tp1.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <fieldset>
+            <form method="post" action="traitement.php">
+            <fieldset>
+            <legend>Vos coordonnées</legend> <!-- Titre du fieldset -->
+            <p>
+            <label for="nom" >Quel est votre nom ?</label><br/>
+            <input type="text" name="nom" id="nom" tabindex="10" /><br />
+            <label for="prenom">Quel est votre prénom ?</label><br/>
+            <input type="text" name="prenom" id="prenom" tabindex="20" /><br />
+            <label for="email">Quel est votre e-mail ?</label><br/>
+            <input type="text" name="email" id="email" tabindex="30" /><br /> 
+            <label for="Localisation">Quel est votre pays ?</label><br/>
+            <input type="text" name="Localisation" id="Localisation" tabindex="30" /><br />
+            </p>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Votre souhait</legend>
+            <p>
+            Faites un souhait que vous voudriez voir exaucé :<br />
+            <input type="radio" name="souhait" value="vie" id="vie" tabindex="40" /> <label for="vie">longue vie</label><br /> 
+            <input type="radio" name="souhait" value="célébrité" id="célébrité" tabindex="50" /> <label 
+            for="célébrité">célébrité</label><br/>
+            <input type="radio" name="souhait" value="intelligent" id="intelligent" tabindex="60" /> <label 
+            for="intelligent">Etre <strong>encore</strong> plus intelligent</label><br/>
+            <input type="radio" name="souhait" value="autre" id="autre" tabindex="70" /> <label 
+            for="autre">Autre...</label><br />
+            </p>
+            </fieldset>
+            </form>
+        </fieldset>   
+    </body>
+</html>
